@@ -2,13 +2,15 @@
 A module that parses file system into JSON
 
 ### Usage
+Simply fs2json.from(targetPath, callback);
 ```javascript
 fs2json.from('test_folder/test_file', (err, fs) => {
-  
+  // err: error while parsing if any
+  // fs: the file structure of parsed path
 });
 ```
 
-and you should get below for fs
+and you should get file structure in fs from the callback
 ```javascript
 [
 { type: 'directory',
@@ -30,3 +32,4 @@ and you should get below for fs
        size: 0 } ] }
 ]
 ```
+
