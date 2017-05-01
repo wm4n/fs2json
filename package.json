@@ -1,0 +1,30 @@
+{
+  "name": "fs2json",
+  "version": "1.0.0",
+  "description": "A module that parses file system into JSON",
+  "main": "src/fs2json.js",
+  "scripts": {
+    "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wm4n/fs2json.git"
+  },
+  "keywords": [
+    "file system",
+    "file system to json'",
+    "fs",
+    "fs to json",
+    "files"
+  ],
+  "author": "William Chao <wmandev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wm4n/fs2json/issues"
+  },
+  "homepage": "https://github.com/wm4n/fs2json#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  }
+}
